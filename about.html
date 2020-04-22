@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>About Us</title>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="solution.css">
+    <script type="text/javascript" src="solution.js"></script>
+</head>
+<body>
+
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="index.html" class="navbar-brand">E-Store</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">        
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="signup.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                    <li>
+                        <a onclick="openForm()" href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a>
+                    </li>
+                    <li><a href="about.html"><span class="glyphicon glyphicon-tasks">About Us</span></a></li>
+                    <li><a href="contact.html"><span class="glyphicon glyphicon-phone">Contact Us</span></a></li>
+                </ul>    
+			</div>
+		</div>		
+	</nav>
+
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="index.html" class="navbar-brand">E-Store</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">        
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="signup.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                    <li>
+                        <a onclick="openForm()" href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a>
+                    </li>
+                    <li><a href="about.html"><span class="glyphicon glyphicon-tasks">About Us</span></a></li>
+                    <li><a href="contact.html"><span class="glyphicon glyphicon-phone">Contact Us</span></a></li>
+                </ul>    
+			</div>
+		</div>		
+	</nav>
+
+    <div class="login-popup">
+        <div class="form-popup" id="popupForm">
+            <div class="container">
+                <div class="row content5">
+                    <div class="col-sm-6">
+                        <div class="panel panel-primary">
+                            <div class="panel-heading">
+                                <h4>LOGIN</h4>
+                            </div>
+                            <div class="panel-body">
+                                <p>Don't have an account? <a href="#">Register</a></p>
+                                <form>
+                                    <div class="form-group">
+                                        <input type="Email" placeholder="Email" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="password" placeholder="Password" required="">
+                                    </div>
+                                    <button class="btn btn-primary">Login</button>
+                                    <button type="button" class="btn btn-danger" onclick="closeForm()">Close</button>
+                                </form>
+                            </div>
+                            <div class="panel-footer">
+                                <p>Forgot Password?</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+	<div class="container">
+		<div class="row content3">
+			<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+				<div class="panel panel-default" style="border:none;">
+					<div class="panel-heading">
+						<h4 style="margin-bottom: 0px;">WHO WE ARE</h4>
+					</div>
+					<div class="panel-body">
+						<img src="img/9.jpg" style="border:1px solid black;">
+						<p style="text-align: justify;">E-store is an American electronic commerce company with its headquarters in Washington. It is the largest internet based retailer in the United States. E-store started as an online blog, but soon diversified, selling mobile phones. E-store also sells certain low-end products like USB cables and other accessories. E-store has seeparate retail websites for United States, United Kingdom, Ireland, France, Canada, Germany, Italy, Spain, Netherlands, Australia, Brazil, Japan, China, India and Mexico. E-store also offers international shipping to certain other countries. It is one of the most popular online purchasing sites. It offers a wide variety of products.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+				<div class="panel panel-default" style="border:none;">
+					<div class="panel-heading">
+						<h4 style="margin-bottom: 0px;">OUR HISTORY</h4>
+					</div>
+					<div class="panel-body">
+						<ul>
+							<li><span id="year">1998-</span>
+								<p>The company was founded in 1998, spurred by what Velos called his "Initializing framework", which described his efforts as an initiate to participate in the Internet business boon during that time. In 1998, Velos left his employment as president of Ofcol & Co. and moved to Seattle. He bagan to work on a business plan for what wouls eventually become E-Store.</p>
+							</li>
+							<li><span id="year">2002-</span>
+								<p>In January 2002, E-store has received a funding of $12 million from Venture Partners and Indo-US Venture Partners. Slowly and steadily, it was becoming one of the emerging companies of the US.</p>
+							</li>
+							<li><span id="year">2008-</span>
+								<p>In July 2008, the company raised a further $45 million from Bessemer Venture Partners, along with existing investors Venture Partners and Indo-US Venture Partners</p>
+							</li>
+							<li><span id="year">2015-</span>
+								<p>E-store received its 3rd round of funding of $133 million on Feb-2015. The 3rd round of funding was led by Fcom with all the current institutional investors, including Kalaari  Capital, Venture Partners and Indo-Venture Partners.</p>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+				<div class="panel panel-default" style="border:none;">
+					<div class="panel-heading">
+						<h4 style="margin-bottom: 0px;">OPPORTUNITIES</h4>
+					</div>
+					<div class="panel-body">
+						<h5 style="font-weight: bold">Available Roles</h5>
+						<p>1. Jr./Sr. Web Developer [Full Time Role + also available as a 6 Months Internship</p>
+						<p>2. Business Apprentice [6 Months Internship]</p>
+						<p>3. Manager at backend operations [Full Time Role + also available as a 6 Months Internship]</p>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+					<h3>Information</h3>
+					<ul>
+						<li><a href="about.html" style="text-decoration: none;">About us</a></li>
+						<li><a href="Contact.html" style="text-decoration: none;">Contact us</a></li>
+					</ul>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+					<h3>My Account</h3>
+					<ul>
+						<li><a href="login.html" style="text-decoration: none;">Login</a></li>
+						<li><a href="signup.html" style="text-decoration: none;">Signup</a></li>
+					</ul>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+					<h3>My Account</h3>
+					<p>Contact: +91-123-0000000</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+</body>
+</html>

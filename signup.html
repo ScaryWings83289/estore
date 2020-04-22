@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Sign Up</title>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="solution.css">
+    <script type="text/javascript" src="solution.js"></script>
+</head>
+<body>
+
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="index.html" class="navbar-brand">E-Store</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">        
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="signup.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                    <li>
+                        <a onclick="openForm()" href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a>
+                    </li>
+                    <li><a href="about.html"><span class="glyphicon glyphicon-tasks">About Us</span></a></li>
+                    <li><a href="contact.html"><span class="glyphicon glyphicon-phone">Contact Us</span></a></li>
+                </ul>    
+			</div>
+		</div>		
+	</nav>
+
+    <div class="login-popup">
+        <div class="form-popup" id="popupForm">
+            <div class="container">
+                <div class="row content5">
+                    <div class="col-sm-6">
+                        <div class="panel panel-primary">
+                            <div class="panel-heading">
+                                <h4>LOGIN</h4>
+                            </div>
+                            <div class="panel-body">
+                                <p>Don't have an account? <a href="#">Register</a></p>
+                                <form>
+                                    <div class="form-group">
+                                        <input type="Email" placeholder="Email" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="password" placeholder="Password" required="">
+                                    </div>
+                                    <button class="btn btn-primary">Login</button>
+                                    <button type="button" class="btn btn-danger" onclick="closeForm()">Close</button>
+                                </form>
+                            </div>
+                            <div class="panel-footer">
+                                <p>Forgot Password?</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+	<div class="container">
+		<div class="row signup">
+			<div class="col-md-6 col-sm-6 col-xs-12">
+				<img class="img-fluid" src="img/11.jpg">
+			</div>
+			<div class="col-md-6 col-sm-6 col-xs-12">
+				<h2>SIGN UP</h2>
+				<form>
+					<div class="form-group">
+						<input type="text" placeholder="Name" required>
+					</div>
+					<div class="form-group">
+						<input type="Email" placeholder="Email" required>
+					</div>
+					<div class="form-group">
+						<input type="password" placeholder="Password" required>
+					</div>
+					<div class="form-group">
+						<input type="number" placeholder="Contact" required>
+					</div>
+					<div class="form-group">
+						<input type="text" placeholder="City" required>
+					</div>
+					<div class="form-group">
+						<input type="text" placeholder="Address" required>
+					</div>
+					<div class="text-right">
+						<button class="btn btn-primary">Submit</button>
+					</div>					
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+					<h3>Information</h3>
+					<ul>
+						<li><a href="about.html" style="text-decoration: none;">About us</a></li>
+						<li><a href="Contact.html" style="text-decoration: none;">Contact us</a></li>
+					</ul>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+					<h3>My Account</h3>
+					<ul>
+						<li><a href="login.html" style="text-decoration: none;">Login</a></li>
+						<li><a href="signup.html" style="text-decoration: none;">Signup</a></li>
+					</ul>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+					<h3>My Account</h3>
+					<p>Contact: +91-123-0000000</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+</body>
+</html>

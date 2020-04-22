@@ -1,0 +1,189 @@
+
+.content
+{
+	margin-top: 100px;
+	text-align: center;
+}
+
+.content2
+{
+	margin-top: 5px;
+	text-align: center;
+}
+
+.content3
+{
+	margin-top: 50px;
+}
+
+.content4
+{
+	margin-top: 70px;
+}
+
+.content5
+{
+	display: flex;
+	justify-content: center;
+	margin-top: 100px;
+	margin-bottom: 0px;
+}
+
+.phones
+{
+	height: 200px;
+	width: auto;
+}
+
+footer
+{
+	background-color: black;
+	color: white;
+}
+
+ul
+{
+	padding-left: 0px;
+}
+
+li
+{
+	list-style-type: none;
+}
+
+a
+{
+	color: white;
+}
+
+.panel-default>.panel-heading
+{
+	border: none;
+	background-color: white;
+}
+
+.panel-heading
+{
+	border-bottom: none;
+}
+
+#year
+{
+	color: blue;
+}
+
+/* Position the Popup form */
+.login-popup 
+{
+	margin-top: 200px
+    text-align: left;
+    width: 100%;
+}
+
+/* Hide the Popup form */
+.form-popup 
+{
+    display: none;
+}
+
+.btn-primary
+{
+	display: inline-block;
+}
+
+.btn-danger
+{
+	display: inline-block;
+}
+
+/* Hover effects for buttons */
+.btn:hover 
+{
+    opacity: 1;
+}
+
+input
+{
+	height: 35px;
+	width: 100%;
+	padding: 5px 7px;
+}
+
+#image
+{
+    margin-left: 20px;
+    margin-bottom: auto;
+    width: 17%;
+    max-width: 300px;
+    height: auto;
+    border: 1px solid black;
+}
+
+#identity
+{
+	margin: 70px 50px 30px 50px;
+}
+
+.left
+{
+	margin-left: 50px;
+	margin-right: 30px;
+}
+
+.right
+{
+	margin-top: 20px;
+}
+
+.signup
+{
+	margin-top: 100px;
+	margin-bottom: 109px;
+}
+
+.img-fluid
+{
+	max-width: 100%;
+	height: auto;
+}
+
+.content6
+{
+	display: flex;
+	justify-content: center;
+	margin-top: 168px;
+	margin-bottom: 200px;
+}
+
+.content7
+{
+	display: flex;
+	justify-content: center;
+	margin-top: 120px;
+	margin-bottom: 422px;
+}
+
+.content8
+{
+	display: flex;
+	justify-content: center;
+	margin-top: 250px;
+	margin-bottom: 252px;
+}
+
+table.a
+{
+	table-layout: auto;
+	width: 450px;
+}
+
+hr
+{
+	border: 1px solid gray;
+}
+
+#link
+{
+	text-decoration: none;
+	color: steelblue;
+}
